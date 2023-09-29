@@ -1,0 +1,52 @@
+body{
+    background-color: beige;
+}
+a{
+   display: inline;
+   padding: 2px;
+   background-color:beige;
+   text-decoration:none;
+   color: rgb(146, 102, 52);
+   font-size: 25px;
+}
+
+li :hover
+{
+    text-decoration:overline gray;
+}
+
+ul{
+    list-style-type: none;
+    margin-left: 700px;
+
+}
+li{
+    display: inline;
+    margin-left: 50px;
+
+}
+
+img{
+    margin-left: 450px;
+    border: 3px solid rgba(112, 68, 48, 0.575);
+}
+
+button{
+    width: 200px;
+    height: 50px;
+    font-size: 15px;
+    border: 2px rgb(116, 69, 69) solid;
+    color: white;
+    background-color: rgb(155, 106, 106);
+    
+}
+
+.button{
+    margin-top: -400px;
+    margin-left: 1000px;
+}
+
+.button :hover{
+  background-color: rgb(190, 131, 131);
+  cursor: pointer;
+}

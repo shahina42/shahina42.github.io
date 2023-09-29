@@ -1,0 +1,65 @@
+body{
+    background-color: beige;
+}
+a{
+   display: inline;
+   padding: 2px;
+   background-color:beige;
+   text-decoration:none;
+   color: rgb(146, 102, 52);
+   font-size: 25px;
+}
+
+li :hover
+{
+    text-decoration:overline gray;
+}
+
+ul{
+    list-style-type: none;
+    margin-left: 700px;
+
+}
+li{
+    display: inline;
+    margin-left: 50px;
+}
+
+.logos{
+    display: flex;
+    position: relative;
+    top: 100px;
+    right: 200px;
+
+}
+
+.git{
+    width:150px ;
+    height: 150px;
+   
+}
+
+.insta{
+    width:150px ;
+    height: 150px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+
+.mail{ width:200px ;
+    height: 200px;
+    
+
+}
+.link{
+    width:200px ;
+    height: 200px;
+    
+}
+
+.two{
+    color: rgb(75, 55, 55);
+     margin-left: 500px;
+    
+}
